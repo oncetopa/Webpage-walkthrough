@@ -3,23 +3,56 @@
   <head>
     <title>K-pop : Welcome to the 4th Generation of K-pop girl groups</title>
     <meta charset="utf-8">
+    <style>
+      a {
+        color:black;
+        text-decoration: none;
+      }
+      h1 {
+        text-align: center;
+        font-size: 40px;
+        border-bottom:1px solid gray;
+        margin:0;
+        padding:20px;
+      }
+      body{
+        margin:0;
+      }
+      #grid ol{
+        border-right:1px solid gray;
+        width:100px;
+        margin:0;
+        padding:20px 0px 20px 40px;
+      }
+      #grid{
+        display: grid;
+        grid-template-columns: 150px 1fr;
+      }
+      #article{
+        padding: 0px 30px 0px 20px;
+      }
+    </style>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="colors.js"></script>
   </head>
   <body>
     <h1><a href="index.html">The 4th Generation</a></h1>
     <input id="night_day" type="button" value="night" onclick="nightDayHandler(this);">
-    <ol>
-      <li><a href="1.html">Aespa</a></li>
-      <li><a href="2.html">STAYC</a></li>
-      <li><a href="3.html">itzy</a></li>
-      <li><a href="4.html">Fromis_9</a></li>
-    </ol>
-    <h2>Fromis_9</h2>
-    <p><a href="https://namu.wiki/w/%ED%94%84%EB%A1%9C%EB%AF%B8%EC%8A%A4%EB%82%98%EC%9D%B8" target="_blank" title="Fromis_9">
-      Fromis_9</a> is one of the late runner who came in the 4th Generation, since their debut is on <u>Jan 24, 2018</u> with debut album 'Glass Shoes'. They made a debut in Stone Music entertainment at first, but now they are in <strong>PLEDIS entertainment, which is subordinated in HYBE entertainment</strong>. The group first had produced by idol audition program called 'idol school', so their belong was once to the Off The Record Entertainment, which belongs to CJ E&M. They haven't made success until their 4th title track 'Love Bomb', but with their effort and growth on musical abilities and concepts, they made first won in chart with their most recent track 'Talk n Talk'.</p>
-      <img src="https://pbs.twimg.com/media/E4VPgIBUUAENwYm.jpg" width="99%">
-    <p style="margin-top: 45px;">
-      Their biggest potential is in their <strong>individual ability</strong> to make fans. Since they weren't trainee in such entertainments, nine different colors have could combined diversely so that they can make plenty of concepts fit well to themselves. They also have strength on <strong>making their concepts reflecting current issues.</strong> One of their latest albums '9-way Ticket' is based on quarantine via COVID-19. Its MV show their visuals with online presets, so that people can feel sympathy and kind of relief by the music and concept they've made.</p>
+    <div id="grid">
+      <ol>
+        <li><a href="1.html">Aespa</a></li>
+        <li><a href="2.html">STAYC</a></li>
+        <li><a href="3.html">itzy</a></li>
+        <li><a href="4.html">Fromis_9</a></li>
+      </ol>
+      <div id="article">
+        <h2>Fromis_9</h2>
+        <p><a href="https://namu.wiki/w/%ED%94%84%EB%A1%9C%EB%AF%B8%EC%8A%A4%EB%82%98%EC%9D%B8" target="_blank" title="Fromis_9">
+          Fromis_9</a> is one of the late runner who came in the 4th Generation, since their debut is on <u>Jan 24, 2018</u> with debut album 'Glass Shoes'. They made a debut in Stone Music entertainment at first, but now they are in <strong>PLEDIS entertainment, which is subordinated in HYBE entertainment</strong>. The group first had produced by idol audition program called 'idol school', so their belong was once to the Off The Record Entertainment, which belongs to CJ E&M. They haven't made success until their 4th title track 'Love Bomb', but with their effort and growth on musical abilities and concepts, they made first won in chart with their most recent track 'Talk n Talk'.</p>
+          <img src="https://pbs.twimg.com/media/E4VPgIBUUAENwYm.jpg" width="99%">
+        <p style="margin-top: 45px;">
+          Their biggest potential is in their <strong>individual ability</strong> to make fans. Since they weren't trainee in such entertainments, nine different colors have could combined diversely so that they can make plenty of concepts fit well to themselves. They also have strength on <strong>making their concepts reflecting current issues.</strong> One of their latest albums '9-way Ticket' is based on quarantine via COVID-19. Its MV show their visuals with online presets, so that people can feel sympathy and kind of relief by the music and concept they've made.</p>
+      </div>
+    </div>
   </body>
   </html>
