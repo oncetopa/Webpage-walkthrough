@@ -2,11 +2,6 @@
   body{
     margin:0;
   }
-  input{
-    bottom:10px;
-    left:10px;
-    position:fixed;
-  }
   a{
     color:black;
     text-decoration:none;
