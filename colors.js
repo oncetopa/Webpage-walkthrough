@@ -19,12 +19,12 @@ var Links = {
         Body.setColor('white');
         self.value='day';
 
-        Links.setColor('yellow');
+        Links.setColor('yellowgreen');
         } else {
         Body.setBackgroundColor('white');
         Body.setColor('black');
         self.value='night';
 
-        Links.setColor('blue');
+        Links.setColor('purple');
         }
     }
