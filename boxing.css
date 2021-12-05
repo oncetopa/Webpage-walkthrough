@@ -1,7 +1,7 @@
 <style>
   a {
     color:black;
-    text-decoration: none;
+    text-decoration: inherit;
   }
   h1 {
     text-align: center;
