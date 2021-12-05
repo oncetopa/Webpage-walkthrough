@@ -31,6 +31,11 @@
   #article{
     padding: 0px 30px 0px 20px;
   }
+  #night-day{
+    bottom:10px;
+    left:10px;
+    position:fixed;
+  }
 @media(max-width:800px){
     #grid{
       display:block;
@@ -43,7 +48,7 @@
     h1{
       border-bottom:none;
     }
-    input{
+    #night-day{
       position:sticky;
     }
   }
