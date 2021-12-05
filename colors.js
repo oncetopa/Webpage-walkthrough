@@ -15,7 +15,7 @@
       
       var Button = {
         setFontColor:function(color){
-        $('input').css('font-color', color);
+        $('input').css('color', color);
         },
         setBackgroundColor:function(color){
         $('input').css('background-color', color);
